@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <tittle>Penjualan pizza terbaik</title>
+
+    </head>
+    <body>
+        <fieldset>
+            <legend>
+                <h3>Penjualan pizza terbaik dengan pesanan anda</h3>
+            </legend>
+               <p>pizza kami tersedia untuk pemesanan online </p>
+               <p>Pizza yang kami buat pasti bikin anda dan keluarga anda ketagihan</p>
+               
+               <form action="proses Penjualan Pizza.php" method="post">
+               
+               <p>informasi anda ; </p>
+               <label for="Nama">Nama :</label>
+                 <input type="text" id="Nama">
+               <br>
+               <br>
+               <label for="Alamat">Alamat</label>
+                  <input type="text" id="Alamat">
+                <br>
+                <br>
+                <label for="Email">Email : </label>
+                   <input type="Email" id="Email">
+               <br>
+               <br>
+               <label for="Catatan"> intruksi pengiriman : </label>
+               <textarea inert="Catatan" rows="2" cols="50"></textarea>
+               <br>
+               <br>
+               
+               <h3>Rancangan pizza yang anda inginkan</h3>
+               <p>Crust (pilihan salah satu )</p>
+                   <input type="radio" id="multigrain" name="Crust">
+               <label for="multigrain">multigrain</label>
+               <br>
+               <input type="radio" id="cheese-stuffed" name="Crust">
+               <label form="cheese-stuffed"> cheese-stuffed</label>
+               <br>
+               <input type="radio" id="pan pizza" name="Crust">
+               <label for="pan pizza">pan pizza</label>
+               <br>
+               <input type="radio" id="cheese bites" name="Crust">
+               <label for="cheese bites">cheese bites</label>
+               <br>
+               <input type="radio" id="Gluten-free" name="Gluten-free">
+              <label for="Gluten-free">Gluten-free</label>
+              <br>
+              <p>Ukuran Crust : </p>
+              
+              <br>
+              <input type="radio" id="personal" name="Ukuran Crust">
+              <label for="personal">personal</label>
+              <br>
+              <input type="radio" id="medium" name="Ukuran Crust">
+              <label for="medium">medium</label>
+              <br>
+              <input type="radio" id="large" name="Ukuran Crust">
+              <label for="large">large</label>
+              
+              
+              <p>Topping (pilih sebanyak yang anda mau)</p>
+              <br>
+              <input type="checkbox" id="bawang" name="Toping1">
+              <label for="bawang">bawang</label>
+              <br>
+              <input type="checkbox" id="saus pedas" name="toping2">
+              <label for="saus pedas">saus pedas</label>
+              <br>
+              <input type="checkbox" id="mozarella cheese" name="Toping3">
+              <label for="mozarella cheese">mozarella cheese</label>
+              <br>
+              <input type="checkbox" id="daging" name="Toping4">
+              <label for="daging">daging</label>
+              <br>
+              <input type="checkbox" id="paprika" name="Toping5">
+              <label for="paprika">paprika</label>
+              <br>
+              <input type="checkbox" id="sosis" name="Toping6">
+              <label for="sosis">sosis</label>
+              <br>
+              <input type="checkbox" id="jamur" name="Toping7">
+              <label for="jamur">jamur</label>
+              <br>
+              <input type="checkbox" id="jagung" name="Toping8">
+              <label for="jagung">jagung</label>
+              
+              <p>Number</p>
+              <p>Berapa banyak pizza yang ingin anda pesan : </p>
+              <input type="Number">
+              <br>
+              <br>
+              <input type="submit" value="siapkan pizza">
+              <input type="reset">
+               
+        </fieldset>
+
+    </body>
+</html>
