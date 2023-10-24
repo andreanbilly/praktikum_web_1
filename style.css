@@ -1,0 +1,27 @@
+* {}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: ;
+
+}
+
+li {
+    margin: 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 0;
+}
+
+.nav {
+    text-align: center;
+    justify-content: end;
+}

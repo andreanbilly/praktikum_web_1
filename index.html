@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head><title>My Web</title></head>
+    <!-- buka tag frameset -->
+ <frameset rows="20%,150%" border="2">
+    <!-- buka tag header -->
+        <frameset style="background-color: darkgray;">
+            <frame name="top" src="header.html" scrolling="no">
+        </frameset>
+        <!-- tutup frameset header -->
+        <!-- buka frame konten -->
+    <frameset cols="80%, 20%">
+         <frame name="main" src="dashboard.html" scrolling="yes">
+         <frame src="gambar.html" scrolling="yes">
+         <frame name="main" src="profil.html" scrolling="yes">
+    </frameset>
+    <!-- tutup frame konten -->
+    <!-- footer frame -->
+    <frameset>
+            <frame src="footer.html" scrolling="no" style="background-color: darkgray;">
+    </frameset>
+    <!-- tutup footer -->
+</frameset>
+</html>
