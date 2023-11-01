@@ -1,0 +1,54 @@
+#header{
+    background-color: grey;
+    text-align: center;
+    padding: 5px;
+}
+#header blockquote{
+    background-color: whitesmoke;
+    border: 2px dotted;
+   
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+
+#tautan ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 10px;
+}
+.gambar{
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    
+}
+.gambar img{
+    width: 300px;
+    
+}
+.fp::first-letter{
+    color: blue;
+    font-size: 40px;
+}
+.koleksi{
+    text-align: center;
+    
+}
+.koleksi img{
+    width: 300px;
+    padding: 30px;
+}
+#tautann ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 10px;
+}
