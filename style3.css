@@ -1,0 +1,40 @@
+.kuning{
+    background-color: yellow;
+    height: 100px;
+    width: 170px;
+}
+.oren{
+    background-color: orange;
+    height: 100px;
+    width: 1027px;
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.kotak1{
+    background-color: green;
+    height: 450px;
+    width: 170px;
+}
+.kotak2{
+    background-color: gray;
+    height: 450px;
+    width: 840px;
+}
+.kotak3{
+    background-color: rgb(140, 140, 242);
+    height: 450px;
+    width: 170px;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.container3{
+    background-color: blue;
+    height: 50px;
+    width: 1217px;
+}
