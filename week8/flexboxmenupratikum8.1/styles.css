@@ -1,0 +1,14 @@
+ul{
+    display: flex;
+    list-style: none;
+    background-color: khaki;
+    padding: .5em;
+    margin:  1em;
+    align-items: center;
+}
+li{
+    margin:0 1em ;
+}
+li.logo{
+    margin-right: auto;
+}
