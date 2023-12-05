@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+</head>
+<body>
+    <div class="container-fluid">
+         <!-- buka navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="home.html">Home</a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="regisseminar.html">Regist Seminar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="creatnewseminar.html">Seminar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Kegiatan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="daftarnama.html">Daftar Nama</a>
+              </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  <!-- tutup navbar -->
+
+        <!-- buka breadcrumb -->
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+        <li class="breadcrumb-item " aria-current="page"><a href="daftarnama.html">daftar nama peserta</a></li>
+      </ol>
+    </nav>
+    <!-- tutup breadcrumb -->
+
+        <!-- ini form -->
+        <div class="container-fluid">
+          <div class="row">
+              <div class="col-md-5" style="border-style: ridge;">
+                  <form>
+                      <p>Tanggal Daftar</p>
+                      <div class="form-group row">
+                          <label for="From" class="col-4 col-form-label" style="border-style: ridge;">From</label>
+                          <div class="col-8">
+                              <input id="From" name="From" type="date" class="form-control">
+                          </div>
+                      </div>
+                      <div class="form-group row">
+                          <label for="To" class="col-4 col-form-label" style="border-style: ridge;">To</label>
+                          <div class="col-8">
+                              <input id="To" name="To" type="date" class="form-control">
+                          </div>
+                      </div>
+                  </form>
+              </div>
+              <div class="col-md-7" style="border-style: ridge;">
+                  <form style="display: flex; padding-left:10vw;">
+                      <div class="form-group" style="margin-right: 3vw; margin-left:2vw">
+                          <label for="Kategori">Kategori Peserta</label>
+                          <div>
+                              <select id="Kategori" name="Kategori" class="custom-select" style="margin-top: 10px;">
+                                  <option value="Mahasiswa">Mahasiswa</option>
+                                  <option value="duck">Duck</option>
+                              </select>
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          <label for="Status">Status Peserta</label>
+                          <div>
+                              <select id="Status" name="Status" class="custom-select" style="margin-top: 10px;">
+                                  <option value="Booking">Booking</option>
+                                  <option value="duck">Duck</option>
+                              </select>
+                          </div>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+        <!-- tutup form -->
+    </div>
+</body>
+</html>
